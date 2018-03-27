@@ -1,6 +1,6 @@
 # Academy Class NODE March 18
 
-#### Useful code
+#### Useful code 
 
 * Cross-domain calls allowed in VOTE server
 
