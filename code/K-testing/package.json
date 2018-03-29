@@ -1,0 +1,21 @@
+{
+    "name": "mocha",
+    "version": "1.0.0",
+    "description": "",
+    "main": "post.js",
+    "scripts": {
+        "mocha": "mocha",
+        "mocha-async": "mocha test/async.test.js",
+        "mocha-time": "mocha --timeout 4000",
+        "mocha-md": "mocha --reporter markdown > results.md"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "request": "^2.85.0",
+        "request-promise": "^4.2.2",
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0"
+    }
+}

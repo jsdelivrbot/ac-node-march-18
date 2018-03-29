@@ -1,0 +1,22 @@
+
+// spain.pug
+
+style
+	include style.css
+
+- let upRegion = region.toUpperCase();
+- let hyphenate = s => s.split("").join("-");
+
+article.city
+	section
+
+		// Note : consistent tab-indenting is ESSENTIAL for Pug templates to work.
+		// Note : this full stop breaks the string interpolation #{ upRegion. }
+
+		h4 #{ hyphenate(city) } is located in the region of
+			span #{ upRegion }.
+
+		ul
+			each item, index in basket
+				li #{ item.name }
+					span #{ item.price }

@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.people{
+	font-family: monaco;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	text-align: center;
+	margin:2rem;
+}
+
+span{
+	color:orangered;
+	margin-left: 0.5rem;
+}
+
+ul{
+	list-style-type: none;
+}

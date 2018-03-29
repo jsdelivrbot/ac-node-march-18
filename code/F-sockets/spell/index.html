@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <style>
+        body{
+        	font-family: menlo;
+        }
+
+        .game{
+        	text-align: center;
+        	font-size: 4rem;
+        	margin:1rem;
+        	letter-spacing: 2px;
+        }
+      </style>
+    </head>
+    <body>
+
+        <section class="game"></section>
+
+        <script src="/jquery/dist/jquery.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script>
+            // socket.io-client exposes a io global
+
+            let BACKSPACE = 8;
+
+            let typeLetter = e => {
+
+            	let code = e.keyCode;
+            	console.log(code);
+
+            	if(( code >= 65 && code <= 90) || ( code === BACKSPACE )) {
+                  socket.emit('spell', code );
+            	}
+
+            }
+
+            $("body").on("keyup", typeLetter);
+            let logger = (e,s) => console.log( "[" + e + "] " + s + "\n");
+
+            var socket = io(); // .connect('http://localhost:4200');
+
+            socket.on('connect', function() {
+                socket.emit('join', Date.now() );
+            });
+
+            socket.on('spell', function(data) {
+                logger( 'spell', data);
+                $(".game").text(data);
+            });
+
+
+
+        </script>
+    </body>
+</html>

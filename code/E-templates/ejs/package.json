@@ -1,0 +1,13 @@
+{
+  "name": "0",
+  "version": "0.4.0",
+  "description": "Templates EJS",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.2"
+  },
+  "repository": {},
+  "license": "MIT"
+}

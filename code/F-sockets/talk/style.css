@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: monaco;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	text-align: center;
+	margin:2rem;
+}
+
+span{
+	color:orangered;
+	margin-left: 0.5rem;
+}
+
+input{
+	padding:0.5rem;
+	font-size: 1.5rem;
+}
+
+.words{
+	color:brown;
+	margin:2rem 0;
+}

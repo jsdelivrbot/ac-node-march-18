@@ -1,0 +1,6 @@
+[ 
+{ "image":"sevilla.jpg", "name":"Sevilla", "region":"Andalusia", "popl":1.2, "temp":84 },
+{ "image":"valencia.jpg", "name":"Valencia", "region":"Valencia", "popl":1.5, "temp":74 },
+{ "image":"barcelona.jpg", "name":"Barcelona", "region":"Catalonia", "popl":5.0, "temp":64 },
+{ "image":"granada.jpg", "name":"Granada", "region":"Andalusia", "popl":0.25, "temp":54 }
+]

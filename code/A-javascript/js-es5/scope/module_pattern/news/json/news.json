@@ -1,0 +1,14 @@
+[
+	{
+		"image"		:"banknote.jpg",
+		"headline"	:"Dali banknote",
+		"story"		:"Central bank of Brazil issues bank note featuring Salvador Dali",
+		"source"	:"The Wall Street Journal"
+	},
+	{
+		"image"		:"kielder.jpg",
+		"headline"	:"Frozen forest",
+		"story"		:"Kielder Forest rangers monitor record low winter temperatures",
+		"source"	:"Ponteland Echo"
+	}
+]

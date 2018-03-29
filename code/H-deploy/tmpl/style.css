@@ -1,0 +1,15 @@
+.city{
+	font-family: monaco;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.city span{
+	color:orangered;
+	margin-left: 0.5rem;
+}
+
+ul{
+	list-style-type: none;
+}

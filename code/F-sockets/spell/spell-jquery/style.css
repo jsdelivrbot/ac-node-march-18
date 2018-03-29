@@ -1,0 +1,15 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: oswald, helvetica;
+}
+
+.game{
+	text-align: center;
+	font-size: 4rem;
+	margin:1rem;
+	letter-spacing: 2px;
+}

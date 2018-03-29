@@ -1,0 +1,40 @@
+body{
+    font-family: 'Oswald', Arial;
+    font-size: 100%;
+	margin:1rem;
+	line-height: 1.6;
+}
+
+.news{	
+	display: flex;             
+    flex-flow: row; 			
+    justify-content: center; 
+    flex-wrap: wrap;
+	
+	margin-bottom: 1rem;		
+	padding:2rem;
+
+}
+
+.panel{
+    border:1px solid rgba(0,0,0,0.2);
+    margin:0.5em;
+    padding:1rem;
+    width:16rem;
+	text-align: left;
+	position: relative;
+}
+
+img{
+    display: block;
+}
+
+.story{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 0.5rem;
+}
+
+.source{
+	font-size: 0.8rem;
+	opacity: 0.5;
+}
